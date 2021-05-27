@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+.body-all {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #E8E6E6;
+    margin: 0;
+    padding: 0;
+}
+.yellow { /*Banière de titre */
+
+    text-align: center;
+    background-color: orangered;
+    font-weight: normal;
+    font-size: 100px;
+    width: 100%;
+}
+
+.black { /*carré noir comportant les 3 boutons*/
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.center{
+    display: inline-block;
+}
+#buttonPlacer1 {
+    background-color: orangered;
+    border: none;
+    color: #000000;
+    font-size: 32px;
+}
+#buttonPlacer{
+    background-color: orangered;
+    border: none;
+    color: #000000;
+    font-size: 32px;
+}
+.ArrièrePlan{
+    width: 1320px;
+    height: 730px;
+    background-color: black;
+    margin: auto;
+}
+.boutonPersonne1 {
+    display: inline-block;
+    background-color: orangered;
+    border-radius: 10px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    font-size: 28px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.Nom { /* class pour le nom*/
+    text-align: center;
+    color: black;
+    font-family: 'Varela Round';
+    margin-top: 200px ;
+}
+.Prenom { /* class pour le Prenom*/
+    text-align: center;
+    color: black;
+    font-family: 'Varela Round';
+}
+.Smiley { /*placement d'image dans les 10 bouttons*/
+    background-image: url("smiley/smiley-2.png");
+    height: 134px;
+    width: 129px;
+    margin-left: 40px;
+    position: absolute;
+
+#pic1 {
+    backgroud-image: url("smiley/smiley-12.png");
+}
